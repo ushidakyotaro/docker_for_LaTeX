@@ -57,6 +57,13 @@ docker run --rm latex-env lualatex --version
 mkdir -p ~/tex
 ```
 
+### 5. （docker環境内で）ライブラリのinstall
+```bash
+apt update
+apt install make
+```
+
+
 ## 使用方法
 
 ### 1. Docker環境の起動

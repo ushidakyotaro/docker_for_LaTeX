@@ -11,9 +11,12 @@ RUN apt update && apt install -y \
     texlive-base \
     texlive-binaries \
     texlive-lang-japanese \
+    #make用
+    make \
     #physics用
     texlive-science \
     && apt clean \
     && rm -rf /var/lib/apt/lists/*
+
 COPY ./preamble.tex /srv/preamble.tex
 CMD ["bash"]
