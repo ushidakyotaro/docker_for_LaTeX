@@ -1,3 +1,3 @@
 # !/bin/bash
 
-docker stop for_usual
+docker stop latex-container
