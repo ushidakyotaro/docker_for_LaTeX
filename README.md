@@ -27,6 +27,14 @@ LaTeX文書作成のためのDocker環境です。日本語文書の作成に対
 
 ## セットアップ手順
 
+### 0. dockerをsudoに入れる
+```
+sudo groupadd docker
+sudo gpasswd -a $USER docker
+sudo systemctl restart docker
+exit
+```
+
 ### 1. リポジトリのクローン
 
 ```bash
