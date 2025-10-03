@@ -147,6 +147,8 @@ Dockerが正しくインストールされているか確認してください�
 docker --version
 docker run hello-world
 ```
+## dockerをvscodeで開く方法
+https://qiita.com/tsuyotobi26/items/9d48fa676f4d55170b5e
 
 ## トラブルシューティング
 
