@@ -11,6 +11,10 @@ RUN apt update && apt install -y \
     texlive-base \
     texlive-binaries \
     texlive-lang-japanese \
+    #日本語フォント
+    fonts-ipaexfont-mincho \
+    fonts-ipaexfont-gothic \
+    texlive-lang-cjk \
     #make用
     make \
     #physics用
